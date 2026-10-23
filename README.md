@@ -44,6 +44,20 @@ The split code checks that every partition contains both classes and, for cluste
 
 Outputs include the fitted model, held-out test predictions, JSON metrics, feature-importance CSV, class-count and sequence-length plots, confusion matrix, and precision-recall curve. Model outputs are ignored by Git by default.
 
+## Model 3: ESM-2 transfer learning
+
+Model 3 uses the frozen pretrained `esm2_t6_8M_UR50D` encoder, mean-pooled final-layer residue embeddings, and a class-balanced Logistic Regression head. It uses the same cluster-aware split helper and seed as Model 1 when both models receive the same rows and `cluster_id` values. See [the Model 3 dataset and method protocol](docs/model3_esm2_dataset.md).
+
+Prepare a source-linked curation CSV from `data/raw/curated_labels_template.csv`, then retrieve its exact human protein accessions from NCBI:
+
+```powershell
+python scripts/prepare_ncbi_dataset.py --curation data/raw/curated_labels.csv
+python scripts/cluster_sequences_mmseqs.py --data data/processed/proteins_esm.csv
+python scripts/run_model3_esm2.py --data data/processed/proteins_esm.csv --output results/model3_esm2
+```
+
+The NCBI script does not assign labels or auto-generate negatives. A candidate negative means no qualifying record was found under the specified evidence rule; it is not a confirmed biological negative. This repository intentionally does not include a training-ready labeled dataset or fabricated performance results. The first ESM-2 run downloads pretrained weights through Fair-ESM and may take time on CPU.
+
 ## Team workflow
 
 Keep `main` as the shared integration branch. Each of the two contributors should create a focused branch from the latest `main`, commit only their work, and open a pull request back to `main`. The other contributor reviews the pull request; merge only after conflicts and data/provenance questions are resolved. Do not both commit directly to `main` or use one shared working branch.
