@@ -1,0 +1,2 @@
+"""StrokeProt-AI research prototype."""
+
