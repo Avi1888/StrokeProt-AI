@@ -37,7 +37,7 @@ python -m pip install -r requirements.txt
 python scripts/run_model3_esm2.py --data data/processed/proteins_esm.csv --output results/model3_esm2
 ```
 
-The Model 3 run is saved locally under ignored `results/model3_esm2/`. Current seed-42 grouped split: train 46 (40 positive/6 candidate-negative), validation 9 (7/2), test 11 (9/2); test groups are 8 positive and 2 candidate-negative. Metrics: precision 0.80, recall 0.89, F1 0.84, balanced accuracy 0.44, PR-AUC 0.72, confusion matrix `[[0,2],[1,8]]`. The model missed both test candidate-negatives and ROC-AUC was 0.17. Despite the F1, this is not evidence of useful discrimination: with only two provisional negatives, results are highly uncertain and likely unrepresentative. Do not use training accuracy or the demo score as evidence of performance.
+The documented seed-42 Model 3 run is included under `results/model3_esm2/` so a fresh checkout can display the current metrics and run the demo. Current grouped split: train 46 (40 positive/6 candidate-negative), validation 9 (7/2), test 11 (9/2); test groups are 8 positive and 2 candidate-negative. Metrics: precision 0.80, recall 0.89, F1 0.84, balanced accuracy 0.44, PR-AUC 0.72, confusion matrix `[[0,2],[1,8]]`. The model missed both test candidate-negatives and ROC-AUC was 0.17. Despite the F1, this is not evidence of useful discrimination: with only two provisional negatives, results are highly uncertain and likely unrepresentative. Do not use training accuracy or the demo score as evidence of performance.
 
 ## Existing Model 1 baseline
 
@@ -81,7 +81,7 @@ Outputs include the fitted model, held-out test predictions, JSON metrics, featu
 
 ## Sequence retrieval dependencies
 
-The NCBI retrieval helper writes sequence CSV, XLSX, and FASTA for evidence-reviewed positive and candidate-negative rows when network access is available; it does not create labels. The first ESM-2 run downloads pretrained weights via Fair-ESM. Weights, embedding caches, and trained model outputs are not committed.
+The NCBI retrieval helper writes sequence CSV, XLSX, and FASTA for evidence-reviewed positive and candidate-negative rows when network access is available; it does not create labels. The first ESM-2 run downloads pretrained weights via Fair-ESM. ESM weights and embedding caches are not committed; the small trained classifier, metrics, and test predictions for the documented demo run are tracked. Re-running training updates those tracked outputs.
 
 ## Team workflow
 
