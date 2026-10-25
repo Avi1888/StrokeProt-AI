@@ -1,0 +1,156 @@
+gene_symbol,protein_aliases,study_univariate_result
+LTBR,LTBR|Tumor necrosis factor receptor superfamily member 3,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.003375801147827846; log2FC=0.218371293103448
+VSIG2,VSIG2|V-set and immunoglobulin domain-containing protein 2,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.008506773839403958; log2FC=0.2368182758620687
+Gal-3,Gal-3|Galectin-3,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.01236936997059002; log2FC=0.2302901724137927
+CCL15,CCL15|C-C motif chemokine 15,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.01475646433396331; log2FC=0.1715354310344832
+CPB1,CPB1|Carboxypeptidase B,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.01540151379278118; log2FC=0.353954655172414
+PARP-1,PARP-1|Poly [ADP-ribose] polymerase 1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.02293091455841002; log2FC=0.384265431034482
+SCGB3A2,SCGB3A2|Secretoglobin family 3A member 2,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.02779150718462084; log2FC=0.09573431034482782
+RAGE,RAGE|Advanced glycosylation end product-specific receptor,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.02784172116898696; log2FC=0.03044284482758641
+FAS,FAS|Tumor necrosis factor receptor superfamily member 6,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.03479362990739097; log2FC=0.05939482758620684
+BLM hydrolase,BLM hydrolase|Bleomycin hydrolase,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.04765819222743801; log2FC=0.04095379310344827
+PRSS8,PRSS8|Prostasin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.05061525597972338; log2FC=0.1218216379310348
+PI3,PI3|Elafin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.05220722119204612; log2FC=0.126537672413793
+PGLYRP1,PGLYRP1|Peptidoglycan recognition protein 1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.05221158341083346; log2FC=0.4890342241379315
+IL16,IL16|Pro-interleukin-16,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.05534308162465494; log2FC=0.08988043103448273
+IL-18BP,IL-18BP|Interleukin-18-binding protein,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.0567639897606475; log2FC=0.3816207758620687
+JAM-A,JAM-A|Junctional adhesion molecule A,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.05696714194122823; log2FC=-0.1774187068965514
+CEACAM8,CEACAM8|Carcinoembryonic antigen-related cell adhesion molecule 8,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.05697716789142179; log2FC=0.4528300862068972
+CASP-3,CASP-3|Caspase-3,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.05739255616336147; log2FC=-0.1070562931034491
+CD4,CD4|T-cell surface glycoprotein CD4,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.05741121527513209; log2FC=0.305963448275862
+Ep-CAM,Ep-CAM|Epithelial cell adhesion molecule,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.05843723550509897; log2FC=0.311675775862069
+HO-1,HO-1|Heme oxygenase 1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.06104117601987474; log2FC=-0.4694263793103453
+ITGB2,ITGB2|Integrin beta-2,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.06199046725345164; log2FC=0.3535149137931031
+SPON1,SPON1|Spondin-1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.0622238996742692; log2FC=0.06124801724137929
+CTSL1,CTSL1|Cathepsin L1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.06723112864407149; log2FC=0.3709940517241384
+LPL,LPL|Lipoprotein lipase,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.06813908633617731; log2FC=-0.3057072413793103
+CD163,CD163|Scavenger receptor cysteine-rich type 1 protein M130,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.07014945700309799; log2FC=0.4901587931034488
+STK4,STK4|Serine/threonine-protein kinase 4,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.07155754198462304; log2FC=0.2421615517241378
+AZU1,AZU1|Azurocidin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.07302357703644714; log2FC=0.6067097413793103
+TNFRSF13B,TNFRSF13B|Tumor necrosis factor receptor superfamily member 13B,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.0740974455456598; log2FC=0.395190431034484
+RETN,RETN|Resistin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.07628824714623772; log2FC=0.4415187068965523
+GP6,GP6|Platelet glycoprotein VI,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.08426600794468468; log2FC=0.1333894827586208
+PDGF subunit A,PDGF subunit A|Platelet-derived growth factor subunit A,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.08457395632237728; log2FC=0.2494542241379309
+PECAM-1,PECAM-1|Platelet endothelial cell adhesion molecule,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.08634053932709884; log2FC=-0.07390224137930979
+CCL17,CCL17|C-C motif chemokine 17,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.08755553606438353; log2FC=0.1645477586206905
+PDGF subunit B,PDGF subunit B|Platelet-derived growth factor subunit B,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.08905731774755876; log2FC=0.287106551724138
+GH,GH|Somatotropin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.09135305589252299; log2FC=0.8296110344827596
+GDF-15,GDF-15|Growth/differentiation factor 15,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.09141468847772508; log2FC=-0.8090962068965517
+Dkk-1,Dkk-1|Dickkopf-related protein 1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.09189314250002888; log2FC=0.1690474137931037
+SRC,SRC|Proto-oncogene tyrosine-protein kinase Src,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.09304207390465738; log2FC=0.3406075
+IL-1ra,IL-1ra|Interleukin-1 receptor antagonist protein,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.09622543487354755; log2FC=0.4910412931034482
+KLK6,KLK6|Kallikrein-6,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1009178473818267; log2FC=0.03115672413793114
+VEGFD,VEGFD|Vascular endothelial growth factor D,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1074517183692082; log2FC=-0.03102250000000062
+FABP4,FABP4|Fatty acid-binding protein,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1085839121493047; log2FC=0.1007123275862067
+IGFBP-7,IGFBP-7|Insulin-like growth factor-binding protein 7,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1133819109004484; log2FC=0.09973931034482764
+TIMP4,TIMP4|Metalloproteinase inhibitor 4,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1145926242990909; log2FC=0.08992931034482776
+MB,MB|Myoglobin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1180428864680563; log2FC=0.03844732758620673
+NEMO,NEMO|NF-kappa-B essential modulator,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1251877221341059; log2FC=0.1674613793103448
+IL-17RA,IL-17RA|Interleukin-17 receptor A,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1323661671058756; log2FC=0.03238698275862095
+TFPI,TFPI|Tissue factor pathway inhibitor,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1364701884642542; log2FC=0.01136422413792992
+MARCO,MARCO|Macrophage receptor MARCO,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.136760669382893; log2FC=0.3875241379310346
+IDUA,IDUA|Alpha-L-iduronidase,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1491370317318316; log2FC=-0.8647083620689653
+TLT-2,TLT-2|Trem-like transcript 2 protein,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1554399261710585; log2FC=0.1627941379310345
+TGM2,TGM2|Protein-glutamine gamma-glutamyltransferase 2,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1577234205434039; log2FC=-0.5808559482758628
+CHI3L1,CHI3L1|Chitinase-3-like protein 1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1594793952233381; log2FC=0.3069451724137933
+OPG,OPG|Tumor necrosis factor receptor superfamily member 11B,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1627269017128162; log2FC=0.1546662931034479
+DLK-1,DLK-1|Protein delta homolog 1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1642953159201468; log2FC=0.001711120689654955
+PSP-D,PSP-D|Pulmonary surfactant-associated protein D,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1746460907343364; log2FC=0.2806224999999998
+PSGL-1,PSGL-1|P-selectin glycoprotein ligand 1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1757171603433748; log2FC=0.03654439655172448
+CDH5,CDH5|Cadherin-5,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.182548534133528; log2FC=0.1772519827586208
+ICAM-2,ICAM-2|Intercellular adhesion molecule 2,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1893763217138523; log2FC=0.2208471551724136
+TF,TF|Tissue factor,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.1949485498448233; log2FC=0.04761594827586269
+IGFBP-1,IGFBP-1|Insulin-like growth factor-binding protein 1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.2088782653069358; log2FC=0.5866876724137935
+TNFRSF10C,TNFRSF10C|Tumor necrosis factor receptor superfamily member 10C,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.2112922378677428; log2FC=0.06559344827586244
+SORT1,SORT1|Sortilin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.2192406551769433; log2FC=0.1082970689655163
+HAOX1,HAOX1|Hydroxyacid oxidase 1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.2205677912581514; log2FC=-0.4379992241379309
+SHPS-1,SHPS-1|Tyrosine-protein phosphatase non-receptor type substrate 1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.2222712934118501; log2FC=0.1638843103448275
+PON3,PON3|Serum paraoxonase/lactonase 3,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.2259014973116571; log2FC=-0.3966054310344833
+THBS2,THBS2|Thrombospondin-2,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.2298392706855589; log2FC=-0.02571051724137963
+PGF,PGF|Placenta growth factor,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.2313001727253224; log2FC=0.09338163793103504
+HB-EGF,HB-EGF|Proheparin-binding EGF-like growth factor,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.2316514188889509; log2FC=0.1126710344827586
+PRTN3,PRTN3|Myeloblastin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.2396393912110499; log2FC=0.3252925000000007
+RARRES2,RARRES2|Retinoic acid receptor responder protein 2,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.2481810951521588; log2FC=0.01261215517241432
+IL-17D,IL-17D|Interleukin-17D,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.2489293314231511; log2FC=-0.05586500000000005
+DCN,DCN|Decorin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.2621330524585512; log2FC=0.2078850862068959
+CCL16,CCL16|C-C motif chemokine 16,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.2690009250530415; log2FC=-0.1466543965517237
+SCF,SCF|Kit ligand,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.2695014615297397; log2FC=-0.4878390517241389
+FGF-23,FGF-23|Fibroblast growth factor 23,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.2809852552263425; log2FC=-0.01068543103448283
+Notch 3,Notch 3|Neurogenic locus notch homolog protein 3,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.28206083700269; log2FC=0.05714137931034458
+TM,TM|Thrombomodulin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.2889507216559741; log2FC=0.1625702586206899
+BNP,BNP|Natriuretic peptides B,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.2927673984572613; log2FC=0.3199297413793104
+PRSS27,PRSS27|Serine protease 27,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.315852802082967; log2FC=-0.0399618103448276
+CTSZ,CTSZ|Cathepsin Z,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.3215747271863837; log2FC=0.04911258620689729
+BOC,BOC|Brother of CDO,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.3276101424388985; log2FC=-0.1519262931034482
+ALCAM,ALCAM|CD166 antigen,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.3348427377360416; log2FC=0.06983939655172389
+PCSK9,PCSK9|Proprotein convertase subtilisin/kexin type 9,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.3411501779236386; log2FC=0.3562249137931035
+IL-1RT1,IL-1RT1|Interleukin-1 receptor type 1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.3483064615964116; log2FC=0.03855362068965551
+CPA1,CPA1|Carboxypeptidase A1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.3486079753605523; log2FC=0.02270672413793129
+CNTN1,CNTN1|Contactin-1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.3732002048670991; log2FC=-0.409095775862069
+MERTK,MERTK|Tyrosine-protein kinase Mer,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.3768093872437459; log2FC=0.2357371551724139
+SPON2,SPON2|Spondin-2,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.3788699370684568; log2FC=0.1674810344827602
+PAI,PAI|Plasminogen activator inhibitor 1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.3977131844332288; log2FC=0.1962361206896555
+GT,GT|Gastrotropin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.4192849844470278; log2FC=0.04778025862068946
+hOSCAR,hOSCAR|Osteoclast-associated immunoglobulin-like receptor,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.4205375838062528; log2FC=0.08106017241379249
+IL1RL2,IL1RL2|Interleukin-1 receptor-like 2,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.4236544750143995; log2FC=-0.05397456896551756
+SELP,SELP|P-selectin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.425953612835073; log2FC=-0.3380958620689665
+SERPINA12,SERPINA12|Serpin A12,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.4267689329169082; log2FC=-0.08944991379310308
+THPO,THPO|Thrombopoietin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.4303581153658154; log2FC=-0.01713637931034473
+ADM,ADM|Pro-adrenomedullin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.4309176729112891; log2FC=-0.06614939655172503
+AP-N,AP-N|Aminopeptidase N,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.4345635500058721; log2FC=0.04632681034482733
+GLO1,GLO1|Lactoylglutathione lyase,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.4489992384575265; log2FC=0.05430517241379285
+t-PA,t-PA|Tissue-type plasminogen activator,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.449005535145854; log2FC=-0.03160862068965464
+NT-proBNP,NT-proBNP|N-terminal pro-B-type natriuretic peptide,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.4563334310174517; log2FC=0.3177067241379312
+PTX3,PTX3|Pentraxin-related protein PTX3,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.4620121316728469; log2FC=0.2659404310344828
+CD40-L,CD40-L|CD40 ligand,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.4866190084846397; log2FC=-0.06909456896551713
+FABP2,FABP2|Fatty acid-binding protein,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.4886835147423356; log2FC=-0.05538103448275855
+IL-6RA,IL-6RA|Interleukin-6 receptor subunit alpha,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.4903622977210281; log2FC=-0.2889674137931042
+ADAM-TS13,ADAM-TS13|A disintegrin and metalloproteinase with thrombospondin motifs 13,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.4945058078183884; log2FC=-0.191543448275862
+OPN,OPN|Osteopontin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.5395590162358184; log2FC=0.4101917241379311
+CTSD,CTSD|Cathepsin D,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.5504581805440176; log2FC=-0.2598284482758624
+DECR1,"DECR1|2,4-dienoyl-CoA reductase 1",Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.5529689525411108; log2FC=-0.4177639655172412
+CXCL1,CXCL1|Growth-regulated alpha protein,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.5606040811910444; log2FC=-0.235923189655173
+ST2,ST2|Interleukin-1 receptor-like 1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.5804774118046966; log2FC=0.1172687068965517
+PIgR,PIgR|Polymeric immunoglobulin receptor,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.5806876974919525; log2FC=0.03466198275862098
+MMP-2,MMP-2|72 kDa type IV collagenase,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.6011659223848392; log2FC=-0.02471810344827596
+IgG Fc receptor II-b,IgG Fc receptor II-b|Low affinity immunoglobulin gamma Fc region receptor II-b,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.6214322554546555; log2FC=-0.1300706896551724
+TIE2,TIE2|Angiopoietin-1 receptor,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.6322684313800482; log2FC=-0.1691298275862074
+PRELP,PRELP|Prolargin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.6343868807019757; log2FC=-0.09899672413793148
+CD93,CD93|Complement component C1q receptor,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.6409181285093064; log2FC=0.001306982758620734
+Gal-4,Gal-4|Galectin-4,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.6452958915557416; log2FC=-0.3180764655172417
+EPHB4,EPHB4|Ephrin type-B receptor 4,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.66429557209104; log2FC=-0.1318917241379314
+vWF,vWF|von Willebrand factor,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.6781083580204117; log2FC=0.1058697413793102
+LEP,LEP|Leptin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.6793919197264786; log2FC=-0.08303784482758658
+CTRC,CTRC|Chymotrypsin-C,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.681734812950235; log2FC=-0.06727362068965625
+FGF-21,FGF-21|Fibroblast growth factor 21,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.6921645438586617; log2FC=0.06450508620689632
+XCL1,XCL1|Lymphotactin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.6975770769127659; log2FC=0.1646291379310343
+CXCL16,CXCL16|C-X-C motif chemokine 16,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.7113897200040746; log2FC=-0.1723777586206898
+HSP 27,HSP 27|Heat shock protein beta-1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.7119271056850791; log2FC=-0.135025948275862
+ACE2,ACE2|Angiotensin-converting enzyme 2,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.7205695818463316; log2FC=-0.4551001724137933
+PLC,PLC|Basement membrane-specific heparan sulfate proteoglycan core protein,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.726078343576743; log2FC=-0.1821401724137939
+FS,FS|Follistatin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.7268823575570829; log2FC=-0.1202117241379312
+IL-1RT2,IL-1RT2|Interleukin-1 receptor type 2,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.7384890729115254; log2FC=-0.2926843965517243
+MMP7,MMP7|Matrilysin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.7586224231610954; log2FC=1.06781224137931
+SELE,SELE|E-selectin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.761255653056431; log2FC=-0.01776982758620704
+PAR-1,PAR-1|Proteinase-activated receptor 1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.7696328418769922; log2FC=-0.2549850862068963
+Gal-9,Gal-9|Galectin-9,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.7731204289322222; log2FC=0.04719396551724131
+MEPE,MEPE|Matrix extracellular phosphoglycoprotein,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.779421997504973; log2FC=-0.2107827586206898
+CHIT1,CHIT1|Chitotriosidase-1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.7839049479364719; log2FC=0.3840577586206897
+AXL,AXL|Tyrosine-protein kinase receptor UFO,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.7912573283586303; log2FC=0.08587896551724228
+TR-AP,TR-AP|Tartrate-resistant acid phosphatase type 5,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.8058725131331911; log2FC=0.05561336206896517
+LDL receptor,LDL receptor|Low-density lipoprotein receptor,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.816528239327443; log2FC=-0.07748293103448267
+GDF-2,GDF-2|Growth/differentiation factor 2,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.8202666581973534; log2FC=-0.3803157758620692
+CCL24,CCL24|C-C motif chemokine 24,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.8336350847679161; log2FC=-0.02360155172413769
+uPA,uPA|Urokinase-type plasminogen activator,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.8385768375788427; log2FC=0.04202793103448332
+GIF,GIF|Cobalamin binding intrinsic factor,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.8532455032344675; log2FC=-0.0999060344827587
+SOD2,SOD2|Superoxide dismutase [Mn],Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.8688982744370849; log2FC=0.02815474137931062
+REN,REN|Renin,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.8822888297589675; log2FC=-0.4518296551724132
+COL1A1,COL1A1|Collagen alpha-1(I) chain,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.8863121140102981; log2FC=-0.1243993103448275
+MMP-3,MMP-3|Stromelysin-1,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.9251038175490734; log2FC=-0.1846690517241383
+AGRP,AGRP|Agouti-related protein,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.9330984008347506; log2FC=-0.1919634482758621
+ITGB1BP2,ITGB1BP2|Integrin beta-1-binding protein 2,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.9417480657587304; log2FC=-0.4770693965517241
+IL-27,IL-27|Interleukin-27,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.9620270302210501; log2FC=0.1743781896551724
+CA5A,CA5A|Carbonic anhydrase 5A,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.9643639411799464; log2FC=-0.09063905172413778
+EGFR,EGFR|Epidermal growth factor receptor,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.9759103963671248; log2FC=-0.138646724137931
+CD84,CD84|SLAM family member 5,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.9835028019463901; log2FC=-0.1228490517241374
+AMBP,AMBP|Protein AMBP,Nature Communications 2026 ischemic-stroke PWH panel; category=Ns; p=0.9861472362179367; log2FC=-0.1559224137931032

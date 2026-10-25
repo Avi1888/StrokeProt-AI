@@ -15,6 +15,14 @@ def main():
     args = parser.parse_args()
     executable = shutil.which("mmseqs")
     if not executable:
+        # Keep a local, ignored Windows install usable without editing the
+        # user's global PATH. MMseqs2's Windows release places the executable
+        # in this bin directory (the .bat wrapper can require helper installs).
+        local_windows = (Path(__file__).resolve().parents[1] / ".tools" / "mmseqs2"
+                         / "mmseqs" / "bin" / "mmseqs.exe")
+        if local_windows.is_file():
+            executable = str(local_windows)
+    if not executable:
         raise SystemExit("MMseqs2 is not installed or not on PATH. Install it before final sequence-aware evaluation.")
     path = Path(args.data)
     with path.open(newline="", encoding="utf-8-sig") as handle:
@@ -22,7 +30,12 @@ def main():
         columns = list(rows[0]) if rows else []
     if not rows or not {"protein_accession", "sequence"}.issubset(columns):
         raise SystemExit("Input must contain protein_accession and sequence columns.")
-    with tempfile.TemporaryDirectory(prefix="strokeprot_mmseqs_") as temporary:
+    # Keep MMseqs intermediates on the project volume. On Windows the system
+    # temp directory may be mounted with permissions that child processes
+    # cannot use, even though the workspace is writable.
+    scratch = Path(__file__).resolve().parents[1] / ".tmp"
+    scratch.mkdir(exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix="strokeprot_mmseqs_", dir=scratch) as temporary:
         temp = Path(temporary)
         fasta, prefix, tmp_dir = temp / "seqs.fasta", temp / "cluster", temp / "tmp"
         with fasta.open("w", encoding="utf-8") as handle:

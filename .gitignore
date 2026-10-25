@@ -2,12 +2,23 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+.tools/mmseqs2/
+.tmp/
 .env
 .DS_Store
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+!data/raw/evidence_curation.csv
+!data/raw/negative_search_pool.csv
+!data/raw/pubmed_negative_search_results.csv
+!data/raw/2026_ischemic_candidate_search_pool.csv
+!data/raw/lagging_2022_91protein_supplement.xlsx
+!data/raw/41467_2026_74258_MOESM3_ESM.xlsx
+!data/raw/41467_2026_74258_MOESM6_ESM.xlsx
+!data/processed/proteins_esm.csv
+!data/processed/proteins_esm.fasta
 results/metrics/*
 results/figures/*
 results/models/*
@@ -17,3 +28,10 @@ results/models/*
 *.joblib
 *.pkl
 
+
+!data/raw/2022_91panel_candidate_search_pool.csv
+!data/raw/2022_91panel_pubmed_results.csv
+!data/raw/2026_ischemic_pubmed_expanded_zero_results.csv
+!data/raw/2026_ischemic_zero_hit_expanded_pool.csv
+!data/raw/2026_pubmed_low_hit_abstracts.csv
+results/model3_esm2/

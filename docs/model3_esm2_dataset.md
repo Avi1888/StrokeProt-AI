@@ -8,9 +8,9 @@ The embedding cache records a SHA-256 digest of the ordered sequences, checkpoin
 
 ## Label and sequence data
 
-`data/raw/curated_labels_template.csv` is a header-only template. Populate it with exact NCBI Protein accessions and labels reviewed by the team. Each row must include gene symbol, label source, evidence ID, and a durable evidence URL. Use `label=1` only for evidence that meets the team's predefined ischemic-stroke association rule. A `label=0` is a **candidate negative**, meaning only that the agreed search did not find qualifying evidence; it is not a biologically confirmed negative. Include `candidate` in the label-source text for label 0. Exclude uncertain records rather than guessing.
+The active evidence source is `data/raw/evidence_curation.csv`; the sequence-backed model table is `data/processed/proteins_esm.csv`. The older `curated_labels_template.csv` and `prepare_ncbi_dataset.py` describe the original pipeline and are not the current curation workflow. Use `label=1` only for primary-human evidence meeting the project's documented stroke-association rule. `label=0` means only that qualifying evidence was not found under the documented candidate search; it is not a biologically confirmed negative. Exclude unresolved records from training.
 
-NCBI retrieves sequence records by the exact accession provided. The output includes accession, FASTA, label provenance, and source metadata. Review NCBI's human organism annotation and accession mapping before accepting the records. This script does not choose positives, infer negatives, or treat missing evidence as a negative. No training-ready CSV is included until both labels have defensible, source-linked records.
+NCBI sequence records were retrieved for 66 reviewed candidates and checked for organism, accession, amino-acid alphabet, and duplicates. There are 56 positives, 10 provisional candidate negatives, and 2 unresolved evidence rows. The dataset supports only an exploratory model demonstration; the candidate-negative class and evaluation are too small for dependable scientific performance claims.
 
 ```powershell
 python -m pip install -r requirements.txt
@@ -20,7 +20,7 @@ python scripts/prepare_ncbi_dataset.py --curation data/raw/curated_labels.csv
 python scripts/cluster_sequences_mmseqs.py --data data/processed/proteins_esm.csv
 ```
 
-Review each accession and label source as a team before training. Pin the disease definition, source release/date, query/filter rules, and manual curation decisions in the dataset manifest. Keep sensitive or very large raw downloads outside Git.
+Review each accession and label source independently before scientific reuse. Pin the disease definition, source release/date, query/filter rules, and manual decisions in the manifest. Keep pretrained weights, caches and model artifacts local and ignored by Git.
 
 ## Run Model 3
 
@@ -30,7 +30,7 @@ python scripts/run_model3_esm2.py --data data/processed/proteins_esm.csv --outpu
 
 By default, the existing Model 1 split helper makes a 70/15/15 cluster-grouped train/validation/test split (seed 42), rejects class-deficient partitions, and checks that clusters do not cross partitions. Validation F1 selects the classification threshold; the test partition is used once for reporting. `--random-pilot` enables a warned-about stratified random pilot if clusters cannot be generated. That pilot is not a leakage-controlled result.
 
-Saved outputs: cached NumPy embeddings, fitted classifier, test-set predictions, and metrics JSON. Report test-set counts alongside precision, recall, F1, balanced accuracy, confusion matrix, ROC-AUC, and average precision. Metrics are not evidence of causal biology or clinical performance.
+Saved outputs: cached NumPy embeddings, fitted classifier, test-set predictions, and metrics JSON (ignored by Git). The recorded grouped split is train 46 (40/6 rows, 36/6 groups), validation 9 (7/2 rows, 7/2 groups), test 11 (9/2 rows, 8/2 groups). The model missed both test candidate-negative examples, with ROC-AUC 0.17. See `docs/dataset_manifest.md` for all metrics. This run demonstrates code execution only and is not evidence of dependable biological classification or clinical performance.
 
 ## Dataset sources
 
